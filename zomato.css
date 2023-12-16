@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-nav{
+    color: white;
+    background-image: url("zomato.jpg"),none;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.main-nav p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 20px;
+   margin-top: 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.main-nav p:hover{
+    color: red;
+    text-shadow: 10px;
+    font-weight: 500px;
+}
+.main-heading{
+    margin-left: 550px;
+}
+.main-heading h1{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.main-heading img{
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.paragraph{
+    color: gray;
+    margin-top: 50px;
+    margin-left: 400px;
+    line-height: 30px;
+}
+.button1{
+    display: inline;
+    justify-content: flex-start;
+}
+.button1 button{
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 50px;
+    width: 350px;
+    border:1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.button1 button p{
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+.button1 button:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    background-color: rgb(234, 196, 196);
+    transform: translateX(20px);
+
+}
+.paragraph p{
+    letter-spacing:2px solid transparent;
+    word-spacing: 4px;
+}
+.cyname{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.cbtn{
+    display: inline;
+    justify-content: flex-start;
+}
+.cbtn button{
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 50px;
+    width: 350px;
+    border:1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cbtn button p{
+    display: inline-flex;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cbtn button img{
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.cbtn button:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transform: translate(5px,12px);
+}
+.footer1 h1{
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.foot{
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.foot .ft{
+    margin-left: 90px;
+}
+.foot .ft p{
+    color: gray;
+    margin-top: 10px;
+}
+.foot .ft h3{
+    color: rgb(102, 101, 101);
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.icon .social i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon .social i{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.icon .store img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.end{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.end p{
+    color: gray;
+}
+.footer1  button{
+    display: inline-flex;
+}
+.f-btn {
+   margin-left: 1100px;
+}
+.f-btn button{
+      height: 30px;
+      width: 80px;
+      border-radius: 5px;
+      border: 2px  solid transparent;
+      cursor: pointer;
+}
+.f-btn button img{
+    height: 10px;
+    width: 15px;
+}
+.footer1 .f-btn button{
+    display: inline-block;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer1 .zomato{
+    margin-left: 185px;
+    margin-top: 100px;
+}
